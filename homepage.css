@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Caveat:wght@700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Finlandica:wght@500&family=Work+Sans:wght@300&display=swap');
+
+.main{
+    background-image:url("Background Image/modern-kitchen-.jpg") ;
+    background-size: 100%;
+}
+
+
+.h1111{
+    color: rgb(120, 7, 7);
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-family:Finlandica ;
+    font-size: 40px;
+    margin-left: auto;
+    margin-right: auto;
+    
+}
+
+
+.h3p{
+    font-family:Work Sans;
+    color: rgb(255, 255, 255);
+    text-align: center;
+    background-color:hsla(0, 0%, 0%, 0.5)
+    
+    }
+
+   .buttonset .btn1{
+    background-color: #000000; /* Green */
+    border: none;
+    color: rgb(255, 255, 255);
+    padding: 12px 165px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+   
+    
+    width:auto;
+    }
+
+   .buttonset .btn1:hover {
+    border: 1px solid transparent;
+    background-color: rgb(216, 98, 38);
+    color: black;
+    font-weight: 550;
+  }
+
+  
+
+  .imageslider{
+    display: block;
+    width: 70%;
+  position: absolute;
+    top: 150px;
+    left: 300px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+.slides{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 130%;
+    margin-left: auto;
+    margin-right: auto;
+}

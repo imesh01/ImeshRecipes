@@ -1,0 +1,143 @@
+.buttonset .btn1{
+    background-color: #dfebf2; /* Green */
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 12px 165px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    
+    
+      
+   }
+
+   .buttonset .btn1:hover {
+    background-color: #2997dc;
+  }
+
+  .main{
+    background-color: black;
+    height: 100%;
+    width: 100%;
+    min-height: 100vh;
+  }
+
+  .contect{
+    font-size: 20px;
+    color: #dfebf2;
+    margin-bottom: 2px;
+    text-align: center;
+  }
+
+  span{
+    color: red;
+  }
+
+.p11{
+  color: #dfebf2;
+  width: auto;
+  
+}
+
+.formcontact{
+position: relative;
+
+}
+
+.f11{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #191919;
+  color:#fff ;
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+
+.ftext{
+  width: 50%;
+  padding: 10px;
+  border: none;
+  outline: none;
+  background: #191919;
+  color:#fff ;
+  font-size: 1rem;
+  margin-bottom: 0.7rem;
+  border-radius: 10px;
+}
+
+.fsbmit{
+  width: 50%;
+  padding: 20px;
+  border: none;
+  outline: none;
+  font-size: 1rem;
+  border-radius: 10px;
+}
+
+.ftext{
+  resize: none;
+  
+}
+
+.btnsub{
+  color:#fff ;
+  display: inline-block;
+  background: #ff1e1e;
+  font-size: 1rem;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  font-weight: 600;
+  border: 2px solid transparent;
+  border-radius: 10px;
+  width: 220px;
+  transition: ease .20s;
+  cursor: pointer;
+  height: 1cm;
+  position: absolute;
+  top: 291px;
+  left: 426.3px;
+}
+
+.btnsub:hover{
+  border: 2px solid rgb(255, 27, 27);
+  background: transparent;
+  
+}
+
+.address{
+  color: #000000;
+}
+
+.phone{
+  color: #000000;
+}
+
+.emailaddress{
+  color: #000000;
+}
+
+
+.contactinfo{
+  width: 30%;
+  height: 52%;
+  border-radius: 10px;
+  padding: 20px 60px;
+  position: absolute;
+  top: 200px;
+  left: 700px;
+  color: rgb(255, 255, 255);
+  background-color:hsl(0, 0%, 100%)
+ 
+ 
+}
+
+.logo{
+  width: 19%;
+  position: absolute;
+  top: 245px;
+  left: 955px;
+}

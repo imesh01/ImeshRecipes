@@ -1,0 +1,141 @@
+.main{
+  background-image:url("Background Image/9iWhMx.jpg") ;
+  background-size: 200%;
+}
+
+
+.buttonset .btn1{
+    background-color: #dfebf2; /* Green */
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 12px 165px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+   .buttonset .btn1:hover {
+    background-color: #fa0202;
+  }
+
+
+  .biriyani{
+    position: absolute;
+    top: 125px;
+    left: 400px;
+    padding: 8px 8px;
+    font-family:Work Sans;
+    color: rgb(255, 255, 255);
+    background-color:hsla(0, 0%, 0%, 0.5)
+   
+  }
+
+
+
+  .kottu{
+    position: absolute;
+    top: 340px;
+    left: 400px;
+    padding: 10px 10px;
+    font-family:Work Sans;
+    color: rgb(255, 255, 255);
+    background-color:hsla(0, 0%, 0%, 0.5)
+  }
+
+
+
+  .pasta{
+    position: absolute;
+    top: 540px;
+    left: 400px;
+    padding: 10px 10px;
+    font-family:Work Sans;
+    color: rgb(255, 255, 255);
+    background-color:hsla(0, 0%, 0%, 0.5)
+  }
+
+  .rice{
+    position: absolute;
+    top: 740px;
+    left: 400px;
+    padding: 8px 8px;
+    font-family:Work Sans;
+    color: rgb(255, 255, 255);
+    background-color:hsla(0, 0%, 0%, 0.5)
+  }
+
+
+
+
+
+
+  
+  
+  /* CSS */
+  .recipebtnclickhere {
+    background-color: #dfebf2; /* Green */
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 12px 70px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 14px;
+    border-radius: 50px;
+  }
+  
+  .recipebtnclickhere {
+    box-shadow: rgba(0, 0, 0, .3) 2px 8px 8px -5px;
+    transform: translate3d(0, 2px, 0);
+  }
+  
+  .recipebtnclickhere:hover {
+    background-color: rgb(11, 212, 230);
+  }
+
+
+
+
+
+
+
+
+
+
+
+
+  
+  
+  
+  
+ 
+  .thumbnails {
+    display: flex;
+    flex-wrap: wrap;
+    
+  }
+  .thumbnails a {
+    flex-grow: 5;
+    height: 200px;
+    margin: 2px;
+    border-radius: 2px;
+    overflow: hidden;
+  }
+  .thumbnails img {
+   
+    object-fit: cover;
+    transition: transform .3s;
+  }
+  .thumbnails a:hover img {
+    transform: scale(1.05);
+  }
+
+
+  .Rh1{
+    font-family:Work Sans;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    background-color:hsla(0, 0%, 0%, 0.5)
+   
+  }

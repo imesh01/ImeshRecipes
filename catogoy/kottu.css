@@ -1,0 +1,66 @@
+.main{
+  background-image: url('../catogoy/beautiful-blurry-green-vibrant-bokeh-move-nature-background-video.jpg');
+  background-size: 120%; 
+}
+
+.buttonset .btn1{
+    background-color: #dfebf2; /* Green */
+    border: none;
+    color: rgb(14, 13, 13);
+    padding: 12px 165px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    }
+
+   .buttonset .btn1:hover {
+    background-color: #3e8e8b;
+  }
+
+  .kottupic{
+    width: 53%;
+    position: absolute;
+    top: 170px;
+    left: 560px;
+    }
+
+
+
+    
+    
+    .Ingredients{
+      padding: 10px 10px;
+      width: 40%;
+      height: 52%;
+      color: rgb(255, 255, 255);
+      background-color:hsla(0, 0%, 0%, 0.5)
+      }
+
+
+      
+    .h3ing{
+      width: 30%;
+      background-color:hsla(0, 0%, 0%, 0.5)
+    }
+
+    .h1kottu{
+      text-align: center;
+      color: rgb(255, 255, 255);
+      width: 32%;
+      background-color:hsla(0, 0%, 0%, 0.5)
+    }
+
+    .h3Method{
+      padding: 10px 8px;
+      color: rgb(255, 255, 255);
+      width: 30%;
+      background-color:hsla(0, 0%, 0%, 0.5)
+    }
+
+    .methodp{
+      padding: 8px 8px;
+      color: rgb(255, 255, 255);
+      width: 100%;
+      background-color:hsla(0, 0%, 0%, 0.5)
+    }

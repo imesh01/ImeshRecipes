@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <title>Imesh Recipes</title>
+  <link rel="stylesheet" href="homepage.css">
+</head>
+<body class="main">
+   
+   
+  
+    <div class="buttonset">
+        <center>
+    <button class="btn1">Home</button>
+    <a href="recipe.html"><button class="btn1">Recipe Catalog</button></a>    <!--button set-->
+    <a href="contactus.html"><button class="btn1">Contact Us</button></a>
+     </center></div>
+
+    
+    <h1 class="h1111">Welcome to Imesh Recipes</h1> <!--welcome page-->
+     
+  
+    <div class="imageslider" style="max-width:500px">
+
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195723007.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195758102.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195816660.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195850064.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195912126.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195926297.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_195942275.jpg" >
+      <img class="slides" src="Home page Image Slider/InShot_20231129_200024929.jpg" >
+
+
+    </div>
+    
+    <script>
+    var myIndex = 0;
+    carousel();
+    
+    function carousel() {
+      var i;
+      var x = document.getElementsByClassName("slides");
+      for (i = 0; i < x.length; i++) {
+        x[i].style.display = "none";  
+      }
+      myIndex++;
+      if (myIndex > x.length) {myIndex = 1}    
+      x[myIndex-1].style.display = "block";  
+      setTimeout(carousel, 2000); // Change image every 2 seconds
+    }
+    </script>
+    
+
+
+    <br><br><br><br><br><br><br><br><br><br><br><br><br><br><br><br>
+  
+  
+  
+   
+    <div class="h3p"> 
+    <h3>Overveiw</h3>
+       <p>Welcome to Imesh Recipe, your go-to destination
+          for culinary inspiration and gastronomic
+          adventures! Imesh Recipe is a vibrant online         <!--Overview-->
+          platform that caters to both novice cooks and
+          seasoned chefs, offering a diverse array of
+          mouthwatering recipes from around the globe.</p>
+        </div>
+
+
+
+
+</body>
+</html>
